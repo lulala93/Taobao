@@ -1,0 +1,74 @@
+body{
+    font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+    color: #3C3C3C;
+    background-color: #f4f4f4;
+}
+body,ul{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: #3C3C3C;
+}
+.container-fluid{
+    height: 55px;
+    padding: 0;
+}
+.container-fluid .out{
+    margin: 0 auto;
+    width: 1190px;
+    height: 35px;
+}
+.container-fluid .out ul{
+    list-style: none;
+}
+.container-fluid .out .left{
+    float: left;
+    width: 292px;
+    background-color: yellow;
+}
+.container-fluid .out li{
+    height: 35px;
+    line-height: 35px;
+    float: left;
+}
+.container-fluid .out .left li:nth-child(1){
+    width: 79px;
+}
+.container-fluid .out .left li:nth-child(2){
+    width: 134px;
+}
+.container-fluid .out .left li:nth-child(3){
+    width: 79px;
+}
+.dropdown-menu{
+    display: none;
+    z-index: 10001;
+    margin-top: -1px;
+}
+/*.dropdown-menu ul{*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top: 0;*/
+    /*font-size: 12px;*/
+    /*border: 1px solid #eee;*/
+    /*padding: 8px 0;*/
+    /*!*box-sizing: content-box;*!*/
+/*}*/
+.dropdown-menu ul li{
+    width: 242px;
+    height: 29px;
+    line-height: 29px;
+    padding: 0 0 0 8px;
+    cursor: pointer;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+
+.container-fluid .out .right{
+    float: right;
+    width: 583px;
+    background-color: #FF5000;
+}
